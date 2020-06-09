@@ -13,12 +13,12 @@ int login(){
     switch(ans){
         case 1:
             cout << "You are in admin mode.\n";
-            cout << "To change directions or questions, please write 1, if you want to quit to user - write 2."
-            cin << ans;
+            cout << "To change directions or questions, please write 1, if you want to quit to user - write 2.";
+            cin >> ans;
             if (ans == 2){
                 return 1;
             } else {
-                
+                cout << "Let's continue";
             }
         case 2:
             return 2
@@ -26,7 +26,6 @@ int login(){
 
     }
 }
-
 int main()
 {
     SetConsoleOutputCP(1251);
