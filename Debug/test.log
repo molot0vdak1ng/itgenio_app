@@ -1,0 +1,5 @@
+﻿  Directions.cpp
+  test.cpp
+C:\Users\molot0v\source\repos\test\test\test.cpp(4,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  test.vcxproj -> C:\Users\molot0v\source\repos\test\Debug\test.exe
