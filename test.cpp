@@ -6,11 +6,33 @@ void printVector(vector <string> v) {
         cout << v.at(i) << endl;
 }
 
+int login(){
+    cout << "1)Admin 2)User"
+    int ans;
+    cin >> ans;
+    switch(ans){
+        case 1:
+            cout << "You are in admin mode.\n";
+            cout << "To change directions or questions, please write 1, if you want to quit to user - write 2."
+            cin << ans;
+            if (ans == 2){
+                return 1;
+            } else {
+                
+            }
+        case 2:
+            return 2
+    }
+
+    }
+}
+
 int main()
 {
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
     Directions dir;
+    int mode = login();
     cout << dir.VideoEditDirs.at(1);
 
     int answer;
